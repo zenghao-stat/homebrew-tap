@@ -1,16 +1,23 @@
-# Zenghao-stat Tap
+# zenghao-stat Homebrew Tap
 
-## How do I install these formulae?
+## Install apple-mail-cli
 
-`brew install zenghao-stat/tap/<formula>`
+```bash
+brew install zenghao-stat/tap/apple-mail-cli
+```
 
-Or `brew tap zenghao-stat/tap` and then `brew install <formula>`.
+Or tap the repository first:
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew tap zenghao-stat/tap
+brew install apple-mail-cli
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "zenghao-stat/tap"
-brew "<formula>"
+brew "apple-mail-cli"
 ```
 
 ## Documentation
