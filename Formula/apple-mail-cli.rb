@@ -1,8 +1,8 @@
 class AppleMailCli < Formula
   desc "Read Apple Mail accounts and messages from the command-line"
   homepage "https://github.com/zenghao-stat/apple-mail-cli"
-  url "https://github.com/zenghao-stat/apple-mail-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "e325c26382a3e519ed155253e933e2b899edb2c72da4cb045e8781f377c13214"
+  url "https://github.com/zenghao-stat/apple-mail-cli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "4496df2ae1993382619de1c26610b2322963243a93230ef53901a091f9e8b37d"
   license "MIT"
 
   depends_on "swift" => :build
